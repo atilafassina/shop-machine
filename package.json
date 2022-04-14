@@ -1,0 +1,21 @@
+{
+  "name": "store-machine",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "format": "prettier --write 'machine/*.ts'"
+  },
+  "author": "Atila Fassina",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/ui": "^0.9.3",
+    "prettier": "^2.6.2",
+    "vitest": "^0.9.3"
+  },
+  "dependencies": {
+    "xstate": "^4.31.0"
+  }
+}
