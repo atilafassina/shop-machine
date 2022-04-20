@@ -4,8 +4,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   test: {
-    globals: true,
     mockReset: true,
-    // watchIgnore: ['final/**/*.ts'],
+    exclude: ['machine/**/*.ts'],
   },
 })

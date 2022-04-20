@@ -1,14 +1,17 @@
 {
-  "name": "store-machine",
+  "name": "shop-machine",
   "version": "1.0.0",
-  "description": "",
+  "description": "contrived example on creating and testing a State Machine",
   "scripts": {
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
     "format": "prettier --write 'machine/*.ts'"
   },
-  "author": "Atila Fassina",
+  "author": {
+    "name": "@AtilaFassina",
+    "url": "https://atila.io"
+  },
   "license": "ISC",
   "devDependencies": {
     "@vitest/ui": "^0.9.3",
